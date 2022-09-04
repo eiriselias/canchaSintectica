@@ -1,0 +1,44 @@
+@mixin seleHover {
+    font-size: large;
+    font: bold;
+}
+
+.contenedor{
+    display: flex;
+    padding: .5rem 3rem;
+    width: 100vw;
+    background-color:rgba(252, 247, 247);
+    align-items: center;
+    position:sticky;
+    top:0px;
+
+    .logo{
+        h4{
+            margin: 0;
+            cursor:pointer;
+            
+        }
+        span{
+            color: red;
+        }
+    }
+    .navegation{
+        
+        
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0;
+            gap:1rem;
+            
+            li{
+                list-style: none;
+                cursor: pointer;
+                &:hover{
+                    @include seleHover();
+                }
+            }
+        }
+    }
+}

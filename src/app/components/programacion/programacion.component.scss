@@ -1,0 +1,106 @@
+$colorFondo: rgba(252, 247, 247, 0.658);
+.container{
+    padding: 0;
+    .membrete{
+        display: flex;
+        margin: 1rem 0;
+        .logoCampeonato{
+            background-color: $colorFondo;
+            border-radius: 50%;
+            border:3px solid red;
+            img{
+                width:10rem;
+                height: 9rem;
+            }
+        }
+        .descripcionCampeonato{
+            background-color: $colorFondo;
+            border-radius: 10px;
+            margin: 0 .5rem;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border:3px solid red;
+            h1{
+                color:beige;
+                text-shadow: black .1em .1em .2em;
+                -webkit-text-stroke: 1px red;
+            }
+            h3{
+                color: beige;
+                text-shadow: black .1em .1em .2em;
+            }
+        }
+    }
+    
+    .partidos{
+            
+            background-color: $colorFondo;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            border:3px solid red;
+            .row{
+                
+                .partido{
+                    display: flex;
+                    justify-content: center;            
+                    img{
+                        width: 8rem;
+                    }
+                    h4{
+                        margin-top: 1.2rem ;
+                        color: black;            
+                        span{
+                            margin:0 2rem;                
+                        }
+                    }
+                    .logo{
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .descripcion{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        h6{
+                            color:red;
+                        }
+                    }
+                }
+                .fecha{
+                    margin-top: -3rem;
+                }
+            }
+            
+    }
+
+    @media (max-width:767px){
+        .membrete{
+            .descripcionCampeonato{
+                width: 100%; 
+                margin: 0;
+            }
+            
+        }
+        .partidos{
+            .row{
+                .partido{
+                    h4{
+                        font-size:medium;
+                        span{
+                            margin: 0;
+                        }
+                    }
+                }
+                .fecha{
+                    font-size: small;
+                }
+            }
+            
+        }
+    }
+}

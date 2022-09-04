@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+//importacion tipo texto 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+
+
+// variables estilos
+$colorPrincipal:rgb(250, 132, 132);
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(assets/fondoFutbol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
