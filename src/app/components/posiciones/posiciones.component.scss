@@ -1,0 +1,45 @@
+.tablaPosiciones{
+    margin-top: 1rem;
+    background-color: beige;
+    border-radius: 10px;
+    th{
+        align-items: center;
+    }
+    tr{
+        .otro{
+            align-items: center;
+        }
+    }
+    .equiposTabla{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        p{
+            margin-bottom: 20px;
+        }
+    }
+    .pinned{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+.cabezera{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: beige;
+    h1{
+        text-shadow: black .1em .1em .2em;
+        -webkit-text-stroke: 1px red;
+    }
+}
+
+@media (max-width:767px){
+    .equiposTabla{
+        p{
+            justify-content: start;
+        }
+    }
+}
