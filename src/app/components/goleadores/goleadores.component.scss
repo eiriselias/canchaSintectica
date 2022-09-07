@@ -1,0 +1,30 @@
+.container{
+    h1{
+        color:beige;
+        text-shadow: black .1em .1em .2em;
+        -webkit-text-stroke: 1px red;
+    }
+    table{
+        background-color: beige;
+        span{
+            padding: 2rem;
+        }
+        .equipo{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            img{
+                width: 4rem;
+                height: 3rem;
+            }
+        }
+        td{
+            padding: 0;
+            color: black;
+            -webkit-text-stroke: 1px black;
+            p{
+                padding-top: 1rem;
+            }
+        }
+    }
+}
