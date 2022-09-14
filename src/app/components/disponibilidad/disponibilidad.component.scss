@@ -1,0 +1,13 @@
+.container{
+    h1{
+        color:beige;
+        text-shadow: black .1em .1em .2em;
+        -webkit-text-stroke: 1px red;
+        span{
+            -webkit-text-stroke:0;
+        }
+    }
+    table{
+        background-color: beige;
+    }
+}

@@ -1,27 +1,25 @@
 # CachaSintectica
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+Este proyecto esta basado en `Angular` utilizando en el `Front-End` como plantilla de estilos `scss` y `html`, y `routers link` para su navegacion entre los menus ademas cuanta con algo de `Bootstrap` para separaciones, diviciones y animacion en tablas.
 
-## Development server
+## Programacion
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Esta seccion cuenta con la primera seccion donde se encuentra el logo de el campeonato en ambos estremos de la web y en el centro con el nombre de el campeonato y la fecha a la cual hace referencia.
 
-## Code scaffolding
+En la segunda seccion cuenta con una tabla la cual contiene el logo y nombre de los equipos que se enfrentan ademas de la fecha y hora del encuentro.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Posiciones
 
-## Build
+Esta pagina cuenta con una tabla de posiciones donde podran los visitantes revisar como va la posicion de sus equipos, en esta tabla podran ver la  posicion de sus equipos, lacantidad de partidos jugados, partidos ganados, partidos empatados, partidos perdidos, goles afabor, goles en contra, diferencia de goles y puntos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Goleadores
 
-## Running unit tests
+Aqui los podran ver la posicion de los juagadores segun el numero de goles, en esta veran el nombre de el jugador el equipo en el cual juega y la cantidad de goles hasta la fecha.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Disponibilidad
 
-## Running end-to-end tests
+Esta pagina fue creada con el fin de que la cancha sintectica pueda mostrar a los clientes que espacios se encuentran ocupados y cuales estan disponibles, en el momento de separacion de espacios por alquiler.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Diseñador
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Esta web fue idea y diseñada por `Eiris Elias Salazar Aguilar` [Portafolio](https://eiriselias.github.io/portafolio/).
