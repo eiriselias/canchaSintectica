@@ -1,5 +1,4 @@
 .tablaPosiciones{
-    margin-top: 1rem;
     background-color: beige;
     border-radius: 10px;
     th{
@@ -27,8 +26,7 @@
 }
 .cabezera{
     display: flex;
-    justify-content: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
     color: beige;
     h1{
         text-shadow: black .1em .1em .2em;
