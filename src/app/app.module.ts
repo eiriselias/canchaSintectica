@@ -7,6 +7,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { ProgramacionComponent } from './components/programacion/programacion.component';
 import { PosicionesComponent } from './components/posiciones/posiciones.component';
 import { GoleadoresComponent } from './components/goleadores/goleadores.component';
+import { DisponibilidadComponent } from './components/disponibilidad/disponibilidad.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { GoleadoresComponent } from './components/goleadores/goleadores.componen
     NavBarComponent,
     ProgramacionComponent,
     PosicionesComponent,
-    GoleadoresComponent
+    GoleadoresComponent,
+    DisponibilidadComponent
   ],
   imports: [
     BrowserModule,
