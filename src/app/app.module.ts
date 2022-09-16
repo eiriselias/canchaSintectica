@@ -8,6 +8,8 @@ import { ProgramacionComponent } from './components/programacion/programacion.co
 import { PosicionesComponent } from './components/posiciones/posiciones.component';
 import { GoleadoresComponent } from './components/goleadores/goleadores.component';
 import { DisponibilidadComponent } from './components/disponibilidad/disponibilidad.component';
+import { CrearJugadorComponent } from './components/crear-jugador/crear-jugador.component';
+import { CrearEquipoComponent } from './components/crear-equipo/crear-equipo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { DisponibilidadComponent } from './components/disponibilidad/disponibili
     ProgramacionComponent,
     PosicionesComponent,
     GoleadoresComponent,
-    DisponibilidadComponent
+    DisponibilidadComponent,
+    CrearJugadorComponent,
+    CrearEquipoComponent
   ],
   imports: [
     BrowserModule,
