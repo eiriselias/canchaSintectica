@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
+import { JugadoresService } from 'src/app/services/jugadores.service';
 
 @Component({
   selector: 'app-crear-equipo',
@@ -7,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrearEquipoComponent implements OnInit {
 
-  constructor() { }
+  jugadorDate:any;
+  jugadores:any;
+
+  constructor(private JugadoreServi:JugadoresService) { }
 
   ngOnInit(): void {
+    this.jugadorDate = new FormGroup({
+    nombre: new FormControl(""),
+    apellido: new FormControl(""),
+    equipo: new FormControl(""),
+    edad: new FormControl(0),
+    goles: new FormControl(0)
+  })
+    
+  }
+
+  guardarJugador(){
   }
 
 }

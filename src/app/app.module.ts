@@ -10,6 +10,7 @@ import { GoleadoresComponent } from './components/goleadores/goleadores.componen
 import { DisponibilidadComponent } from './components/disponibilidad/disponibilidad.component';
 import { CrearJugadorComponent } from './components/crear-jugador/crear-jugador.component';
 import { CrearEquipoComponent } from './components/crear-equipo/crear-equipo.component';
+import { ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CrearEquipoComponent } from './components/crear-equipo/crear-equipo.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

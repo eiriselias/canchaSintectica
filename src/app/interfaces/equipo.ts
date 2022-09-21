@@ -3,6 +3,7 @@ interface Equipo{
     nombreTencnico: string,
     apellidoTecnico: string,
     jugadores: Jugador[],
+    logo: string,
     pj: number, // partidos jugados
     pg: number, // partidos ganados
     pe: number, // partidos empatados

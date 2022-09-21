@@ -99,24 +99,24 @@
             </div>
             <div class="modal-body">
                 <h3 align="center">Equipo Nombre Equipo</h3>
-                <form class="container">
+                <form [formGroup]="jugadorDate" class="container">
                     <div class="row">
                         <label class="col-2" for="nombreJugador">Nombre:</label>
-                        <input class="col-9" type="text" id="nombreJugador">
+                        <input class="col-9" formControlName="nombre" type="text" id="nombreJugador">
                     </div>
                     <div class="row">
                         <label class="col-2" for="apellidoJugador">Apellido:</label>
-                        <input class="col-9" type="text" id="apellidoJugador">
+                        <input class="col-9" formContolName="apellido" type="text" id="apellidoJugador">
                     </div>
                     <div class="row">
                         <label class="col-2" for="edadJugador">Edad:</label>
-                        <input class="col-2" type="number" id="edadJugador">
+                        <input class="col-2" formControlName="edad" type="number" id="edadJugador">
                     </div>
                 </form>
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-primary">Guardar</button>
+            <button type="submit" (click)="guardarJugador()" class="btn btn-primary">Guardar</button>
             </div>
         </div>
     </div>
